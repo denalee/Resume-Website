@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<meta name:"viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="my-framework.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+	<header> 
+	<img src="images/logo.png" alt="Portfolio Logo" height="100" width="300" class="img-fluid logo">
+	</header>
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  	</button>
+
+ 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    		<ul class="navbar-nav mr-auto">
+      			<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      			<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+      			<li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+      			<li class="nav-item active"><a class="nav-link" href="form.html">Form</a></li>      
+    		</ul>
+  	</div>
+</nav>
+
+	<main>
+
+		<h1> Form </h1>
+		<p> This is an example of a form! </p>
+		<form action="https://webdevstudents.com/portfolio/submit-form.php" method="post">
+			<label for="first_name">First Name: </label>
+			<input 
+			type="text" 
+			name="first_name" 
+			id="first_name"> <br>
+
+			<label for="last_name">Last Name: </label>
+			<input 
+			type="text" 
+			name="last_name" 
+			id="last_name"> <br>
+
+			<label for="email">Email: <input 
+				type="email" 
+				placeholder="Enter your email"
+				name="email"
+				id="email"> <br>
+
+			<label for="phone">Phone: </label>
+			<input type="tel" 
+				name="phone" 
+				id="phone"> <br>
+			<input type="submit">
+			<input type="reset">
+		</form>
+		<p><b> DISCLAIMER: You cannot contact me through this form, it is just an example of a form.</b></p>
+	</main>
+
+	<footer>
+				<div class="containter-fluid">
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="https://www.linkedin.com/in/dena-lee-9a4925219/">
+					<i class="fa fa-linkedin-square" aria-hidden="true"></i><br> 
+					</a>
+					<a class="foot" href="https://www.linkedin.com/in/dena-lee-9a4925219/"> Connect on LinkedIn</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="mailto:lee.dena7@gmail.com"> 
+						<i class="fa fa-envelope-o" aria-hidden="true"></i><br> </a>
+					<a class="foot" href="mailto:lee.dena7@gmail.com">Email Me</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="https://github.com/denalee"> 
+						<i class="fa fa-github" aria-hidden="true"></i><br> </a>
+					<a class="foot" href="https://github.com/denalee">My GitHub</a>
+				</div>
+			</div>
+		</div>	
+
+		<small>&copy; Dena Lee </small>
+	</footer>
+
+
+<!--jQuery, Popper, and Bootstrap Javascript files-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+</body>
+	
+</html>

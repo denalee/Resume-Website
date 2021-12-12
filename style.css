@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+/* CSS for Tablets*/
+@media only screen and (max-width: 1024px) {
+	h1 {
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphones*/
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 1.5em;
+	}	
+}
+
+h1{
+	padding: 10px;
+	color: #3A405A;
+	font-size: 3em;
+}
+
+h2{
+	padding-left: 15px;
+}
+
+h3{
+	padding-left: 25px;
+}
+
+h4{
+	padding-left: 40px;
+}
+
+#moveright{
+	padding-left: 40px;
+}
+
+.points {
+	padding-left: 80px;
+}
+
+p{
+	margin: 15px;
+	font-size: 20px;
+}
+
+img {
+	padding: 30px;
+}
+
+head{
+	background-color: #AEC5EB;
+}
+
+body{
+	font-family: 'Playfair Display', serif;
+	background-color: #AEC5EB;
+	color: #3A405A;
+}
+
+#me {
+	float: right;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center; 
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline;
+	font-size: 20px;
+}
+
+nav {
+background: rgb(157,170,242);
+background: linear-gradient(90deg, rgba(157,170,242,1) 0%, rgba(244,219,125,1) 50%, rgba(26,34,56,1) 100%);
+}
+
+nav a {
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+nav a:link {
+	color: #3E2F5B;
+}
+
+nav a:visited {
+	color: mediumpurplerple;
+}
+
+nav a:hover {
+	color: darkorchid;
+}
+
+nav a:active {
+	color: blue;
+}
+
+input{
+ 	background-color: lightgrey;
+ 	height: 20px;
+ 	border-radius: 5px;
+ }
+
+input[type=submit]{
+	background-color: s;
+}
+
+i.fa{
+	font-size: 6em;
+	padding: 20px;
+	padding-bottom: 10px;
+	color: #3A405A;
+}
+
+.foot {
+	font-size: 2em;
+	color: #3A405A;
+}
+
+.logo {
+	margin: 0 auto;
+	display: block;
+}
+
+form {
+	padding: 15px;
+}
+
+small{
+	padding: 3px;
+}
+
+footer{
+	background-color: #ffb86f;
+	text-align: center;
+}
+
+
+
+
+

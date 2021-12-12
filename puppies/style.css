@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
+
+*{
+	background-color: #white;
+	color: #4D9078;
+
+}
+
+h1{
+	font-family: 'Gluten', cursive;
+	font-size: 4em;
+	padding: 5px;
+}
+
+/* CSS for Tablets*/
+@media only screen and (max-width: 1024px) {
+	h1 {
+		font-size: 2em;
+	}
+}
+
+h2{
+	text-align: left;
+}
+
+/* CSS for Smartphones*/
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 1.5em;
+	}	
+}
+
+body{
+	font-family: 'Playfair Display', serif;
+}
+
+p{
+	font-size: 30px;
+}
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+div {
+	background-color: #white;
+}
+
+img{
+	display:block;
+	margin: 0 auto;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 6px;
+	border-color: #5FAD56;
+}
+
+nav {
+	font-size: 1.5em;
+	padding: 5px;
+	border-style: solid;
+	background-color: #F78154;
+	text-align: center;
+}
+
+nav a {
+	border: ;
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+nav a:link {
+	color: #65655E;
+}
+
+nav a:visited {
+	color: sienna;
+}
+
+nav a:hover {
+	color: lightpink;
+}
+
+nav a:active {
+	color: blue;
+}
+
+input{
+ 	background-color: lightgrey;
+ 	height: 20px;
+ 	border-radius: 5px;
+}
+
+input[type=submit]{
+	background-color: sienna;
+}
+
+.row{
+	margin: 5px;
+}
+
+.col-sm-12{
+	font-size: 20px;
+	padding: 10px;
+}
+
+.home-hero {
+	background-image:url(images/header.jpg);
+	height: 500px;
+	width: 1500px;
+	background-size: cover;
+	background-position: center;
+	color: #4D9078;
+	padding: 10px 10px 10px 30px;
+	text-shadow: 1px 1px 0 #2B5043;
+	text-align: left;
+}
+
+i.fa{
+	font-size: 6em;
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.foot {
+	color: white;
+	font-size: 2em;
+}
+
+img {
+	width: 350px;
+	height: 350px;
+}
+
+
+.centered {
+	display: inline-block;
+}
+
+.col=sm-4 {
+	font-size: 50px;
+}
+
+small{
+	color: white;
+	padding: 3px;
+}
+
+footer{
+	background-color: #F78154;
+}
+
+
+
