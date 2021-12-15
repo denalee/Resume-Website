@@ -66,6 +66,7 @@ body{
 
 #me {
 	float: right;
+	margin: auto;
 }
 
 nav ul {
